@@ -1,0 +1,22 @@
+.center-img {
+    padding-top: 10px;
+    margin: auto;
+    display: block
+}
+
+#user-tag {
+    display: block;
+    margin-bottom: -10px;
+}
+
+.center-obj {
+    justify-content: center;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+  
