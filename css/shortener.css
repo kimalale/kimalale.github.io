@@ -1,0 +1,493 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: #5C47CC;
+    background: -webkit-linear-gradient(top left, #5C47CC, #919AD6);
+    background: -moz-linear-gradient(top left, #5C47CC, #919AD6);
+    background: linear-gradient(to bottom right, #5C47CC, #919AD6);
+}
+
+
+html {
+    height: 100%;
+}
+
+.card-view {
+    text-align: center;
+    margin: 2rem auto;
+}
+
+h2 {
+    text-underline-offset: .5rem;
+    
+}
+
+.view {
+    margin: 2rem 10rem;
+    border: 1px solid rgba(255, 255, 255, 0.582);
+    border-radius: .25rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 10px 20px 20px grey;
+}
+
+.under-l {
+    border-bottom: .001rem solid black ;
+    
+}
+
+label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: .3rem;
+}
+
+#url, #url-short {
+    height: 2.2rem;
+    width: 60%;
+    border: 0;
+    border-radius: .18rem;
+    padding: .5rem;
+    font-size: 1rem;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.822);
+}
+
+
+ .button {
+    margin: .8rem 0 .8rem 0;
+    width: 7rem;
+    height: 2rem;
+    border: 0;
+    border-radius: 1rem;
+    font-weight:600;
+    font-size: .9rem;
+    letter-spacing: .02rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+button:hover {
+    border-radius: 1rem;
+    color: white;
+    background-color: #5C47CC;
+    border: 1px solid white;
+    border-radius: 1.3rem;
+}
+
+
+@media only screen and (max-width: 860px) {
+    
+    .view {
+        margin: 2rem 10rem;
+        }
+    
+    
+    #url, #url-short {
+       
+        width: 70%;
+    
+        }
+    }
+    
+
+
+@media only screen and (max-width: 660px) {
+    
+.view {
+    margin: 2rem 7rem;
+    }
+
+
+#url, #url-short {
+   
+    width: 70%;
+
+    }
+}
+
+
+@media only screen and (max-width: 580px) {
+            
+    .view {
+        margin: 2rem 6rem;
+        }
+            
+            
+    #url, #url-short {
+            
+        width: 70%;
+            
+        }
+}
+
+@media only screen and (max-width: 520px) {
+    
+    .view {
+        margin: 2rem 4rem;
+        }
+        
+        
+    #url, #url-short {
+           
+        width: 70%;
+        
+    }
+}
+
+
+
+@media only screen and (max-width: 485px) {
+    
+    .view {
+        margin: 2rem 3rem;
+        }               
+            
+    #url, #url-short {
+               
+        width: 90%;
+            
+         }
+
+   
+
+
+
+
+        }
+
+
+
+@media only screen and (max-width: 375px) {
+    
+    .view {
+        margin: 2rem 1rem;
+        }               
+            
+    #url, #url-short {
+               
+        width: 90%;
+            
+         }
+
+
+    
+
+
+
+        }
+
+.user {
+    color :   white;
+}
+
+.lighten {
+    font-weight: 300;
+}
+
+
+
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0rem;
+    padding-right: .4rem;
+    width: 100%;
+  }
+
+  .container {
+    max-width: 1280px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+  .clearfix::after,
+.container::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+
+.container .columns {
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+
+.container .column {
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+
+.yeo-header {
+    background: transparent;
+}
+
+.yeo-header a {
+    color: #fff;
+}
+
+.yeo-header .navbar {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 1.5rem 0 1rem 0;
+}
+
+.yeo-header .navbar-section .btn.btn-link {
+    color: #fff;
+    padding: .25rem 1.2rem;
+    opacity: .9;
+}
+
+
+.yeo-header .btn-hire-me {
+    background: #00bc9e;
+    border-color: transparent;
+    color: #ffffff;
+    border-radius: 50px;
+    padding: .25rem 1rem;
+}
+
+
+
+.columns {
+    display: flex;
+    display: -ms-flexbox;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .columns::after {
+    content: "";
+    width: 21.3rem;
+  }
+
+  .column {
+    -ms-flex: 1;
+    flex: 1;
+    max-width: 100%;
+    padding-left: .4rem;
+    padding-right: .4rem;
+  }
+
+  .column.col-12,
+.column.col-11,
+.column.col-10,
+.column.col-9,
+.column.col-8,
+.column.col-7,
+.column.col-6,
+.column.col-5,
+.column.col-4,
+.column.col-3,
+.column.col-2,
+.column.col-1 {
+  -ms-flex: none;
+  flex: none;
+}
+
+.col-12 {
+    width: 100%;
+  }
+
+  .title::before {
+    content: "Kimalale - SPACE";
+}
+
+  .navbar .navbar-brand.logo {
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+}
+
+.yeo-header .navbar {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 1.5rem 0 1rem 0;
+}
+
+.yeo-header .navbar-section .btn.btn-link {
+    color: #fff;
+    padding: .25rem 1.rem;
+    opacity: .9;
+}
+
+.navbar {
+    align-items: stretch;
+    display: flex;
+    display: -ms-flexbox;
+    -ms-flex-align: stretch;
+    -ms-flex-pack: justify;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  
+  .navbar .navbar-section {
+    align-items: center;
+    display: flex;
+    display: -ms-flexbox;
+    -ms-flex: 1 0 0;
+    flex: 1 0 0; 
+    -ms-flex-align: center;
+  }
+
+  .navbar .navbar-section:not(:first-child):last-child {
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+
+
+  .navbar .navbar-center {
+    align-items: center;
+    display: flex;
+    display: -ms-flexbox;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto; 
+    -ms-flex-align: center;
+  }
+
+  
+
+  .navbar .navbar-brand {
+    font-size: .9rem;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .logo-img {
+    padding-right: 10px;
+    display: inline-block;
+    height: 24px;
+}
+
+
+
+@media (max-width: 440px) {
+   
+      .logo-img {
+    padding-right: 8px;
+    
+    }
+
+    .navbar .navbar-brand.logo {
+        font-size: 1rem;
+        letter-spacing: .2px;
+    }
+
+
+
+
+
+    .logo-img {
+        padding-right: 8px;
+        height: 20px;
+    }
+
+    .title::before {
+        content: "Kimalale";
+        letter-spacing: 2px;
+    }
+    
+
+   /*
+    .hide-sm {
+      display: none !important;
+    }
+    */
+  }
+
+
+
+@media (max-width: 260px) {
+   
+  .hide-sm {
+    display: none !important;
+  }
+  
+}
+
+  
+
+.btn {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #fff;
+    border: .05rem solid #5755d9;
+    border-radius: .1rem;
+    color: #5755d9;
+    cursor: pointer;
+    display: inline-block;
+    font-size: .8rem;
+    height: 1.8rem;
+    line-height: 1.2rem;
+    outline: none;
+    padding: .25rem .4rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all .2s ease;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+
+  .btn.btn-primary {
+    background: #5755d9;
+    border-color: #4b48d6;
+    color: #fff;
+  }
+
+  .btn.btn-primary:focus,
+.btn.btn-primary:hover {
+  background: #4240d4;
+  border-color: #3634d2;
+  color: #fff;
+}
+
+.btn.btn-primary:active,
+.btn.btn-primary.active {
+  background: #3a38d2;
+  border-color: #302ecd;
+  color: #fff;
+}
+
+.btn.btn-primary.loading::after {
+    border-bottom-color: #fff;
+    border-left-color: #fff;
+  }
+  
+
+  .yeo-header .btn-hire-me {
+    background: #00bc9e;
+    border-color: transparent;
+    color: #ffffff;
+    border-radius: 50px;
+    padding: .25rem 1rem;
+}
+
+
+#url:active, #url:focus {
+    outline-style:ridge;
+    outline-offset: -1px;
+    outline-width: thin;
+}
