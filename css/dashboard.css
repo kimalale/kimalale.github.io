@@ -1,0 +1,39 @@
+.center-img {
+    padding-top: 10px;
+    margin: auto;
+    display: block
+}
+
+.text-center {
+    text-align: center  ;
+    color: white;
+}
+
+#user-tag {
+    display: block;
+    margin-bottom: -10px;
+}
+
+.center-obj {
+    justify-content: center;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+
+  .service {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+  }
+  
