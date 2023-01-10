@@ -49,7 +49,7 @@ html {
   width: 10%;
 }
 
-p {
+form > p {
  text-align: center ;
   font-size: 15px;
 }
@@ -79,4 +79,110 @@ p {
 
 .thumbnail {
   border-radius: 4px;
+}
+
+.image {
+  text-align: center;
+}
+
+.video-card {
+  text-align: center;
+}
+
+#info {
+  text-align: left;
+  margin: 25px auto;
+  padding: 20px;
+  width: 40%
+}
+
+@media only screen and (max-width: 600px){
+  #info {
+    width: 60%
+  }
+
+
+#url {
+
+  width: 60%;
+  
+}
+}
+
+@media only screen and (max-width: 400px){
+  #info {
+    width: 70%
+  }
+
+
+#url {
+
+  width: 70%;
+  
+}
+}
+
+@media only screen and (max-width: 340px){
+  #info {
+    width: 80%
+  }
+
+
+#url {
+
+  width: 70%;
+  
+}
+
+#url-button {
+  max-width: 100px;
+  width: 20%;
+}
+}
+
+
+
+@media only screen and (max-width: 300px){
+  #info {
+    width: 95%
+  }
+
+
+#url {
+
+  width: 70%;
+  
+}
+
+#url-button {
+  max-width: 100px;
+  width: 20%;
+}
+}
+
+#info > p {
+  margin: 4px;
+}
+
+#downloads {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#downloads td, #downloads th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#downloads tr:nth-child(even){background-color: #f2f2f2;}
+
+#downloads tr:hover {background-color: #ddd;}
+
+#downloads th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
 }
