@@ -58,6 +58,7 @@ form > p {
 #note {
   margin-top: 12rem;
   font-size: 20px;
+  text-align: center;
   color: #fff;
   animation: glow 1s ease-in-out infinite alternate;
 }
@@ -96,9 +97,30 @@ form > p {
   width: 40%
 }
 
+#downloads {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+
+}
+
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
 @media only screen and (max-width: 600px){
   #info {
-    width: 60%
+    width: 60%;
+  }
+
+  #downloads {
+    width: 55%;
+  
   }
 
 
@@ -114,6 +136,11 @@ form > p {
     width: 70%
   }
 
+  #downloads {
+    width: 60%;
+  
+  }
+
 
 #url {
 
@@ -125,6 +152,11 @@ form > p {
 @media only screen and (max-width: 340px){
   #info {
     width: 80%
+  }
+
+  #downloads {
+    width: 70%;
+  
   }
 
 
@@ -146,7 +178,10 @@ form > p {
   #info {
     width: 95%
   }
-
+  #downloads {
+    width: 80%;
+  
+  }
 
 #url {
 
@@ -164,15 +199,11 @@ form > p {
   margin: 4px;
 }
 
-#downloads {
-  font-family: Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
+
 
 #downloads td, #downloads th {
   border: 1px solid #ddd;
-  padding: 8px;
+  padding: 4px;
 }
 
 #downloads tr:nth-child(even){background-color: #f2f2f2;}
@@ -180,8 +211,8 @@ form > p {
 #downloads tr:hover {background-color: #ddd;}
 
 #downloads th {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: left;
   background-color: #04AA6D;
   color: white;
